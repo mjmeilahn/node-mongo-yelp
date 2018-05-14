@@ -119,31 +119,3 @@ router.post('/api/stores/:id/heart',
 
 
 module.exports = router;
-
-
-
-
-
-
-// Examples from exercises 
-
-// router.get('/', (req, res) => {
-//   let me = { name: 'Matthew', age: 28, cool: true };
-//   //res.send('Hey! It works!');
-//   //res.json(me);
-//   //res.send(req.query.name);
-//   res.render('hello', {
-//     name: 'Matthew',
-//     age: 28,
-//     cool: true,
-//     title: 'Home'
-//   });
-// });
-
-// router.get('/reverse/:name', (req, res) => {
-//     //res.send('it works!');
-//     //res.send(req.params.name);
-//     let reverse = [...req.params.name].reverse().join('');
-//     res.send(reverse);
-// });
-
