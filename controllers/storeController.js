@@ -1,13 +1,3 @@
-// exports.myMiddleware = (req, res, next) => {
-//     req.name = 'Matthew';
-//     if (req.name === 'Matthew') {
-//         throw Error('That name is out of bounds');
-//     }
-//     //res.cookie('name', 'Matthew is cool', {maxAge:900000});
-//     next();
-// };
-
-
 const mongoose = require('mongoose');
 const Store = mongoose.model('Store');
 const multer = require('multer');
